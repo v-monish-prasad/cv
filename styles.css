@@ -1,0 +1,83 @@
+/*********SELECTORS**********/ 
+
+body {
+    background-color: #e0ebe8;
+    font-family: poppins;
+}
+  
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #dadada;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1, h3 {
+      font-family: poppins;
+      color: #45b29a;
+      font-weight: 600;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+h1:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+h3:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+th, a {
+      color: #45b29a;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+table:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/*********CLASS SELECTORS**********/ 
+
+.table1:hover {
+    background-color: #e0ebe8;
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    background-color: #45b29a;
+    border-style: none;
+    border-radius: 7%;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #45b29a;
+    background-color: white;
+}
